@@ -1,5 +1,5 @@
 ﻿body {
-	
+	text-align: center;
 }
 
 header {
@@ -10,8 +10,20 @@ nav {
 	background-color: #610;
 }
 
+nav ul {
+	display: inline;
+}
+
+nav li {
+	text-decoration: none;
+}
+
 #wrapper {
 	background-color: #EE9;
+}
+
+main {
+	text-align: left;
 }
 
 footer {
