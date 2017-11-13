@@ -7,7 +7,7 @@ header {
 }
 
 header h1 {
-	font-decoration: bold;
+	font-weight: bold;
 	font-size: 48px;
 }
 
@@ -16,12 +16,12 @@ nav {
 }
 
 nav ul {
-	
+	list-style: none;
 }
 
 nav li {
 	text-decoration: none;
-	display: inline;
+	display: inline-block;
 }
 
 #wrapper {
