@@ -4,7 +4,10 @@
 
 header {
 	background-color: #820;
-	margin: 0;
+	margin-bottom: 0;
+	margin-top: 0;
+	margin-left: 0;
+	margin-right: 0;
 	padding: 16px;
 }
 
@@ -15,7 +18,10 @@ header h1 {
 
 nav {
 	background-color: #610;
-	margin: 0;
+	margin-bottom: 0;
+	margin-top: 0;
+	margin-left: 0;
+	margin-right: 0;
 	padding: 8px;
 }
 
@@ -40,5 +46,8 @@ main {
 
 footer {
 	background-color: #820;
-	margin: 0;
+	margin-bottom: 0;
+	margin-top: 0;
+	margin-left: 0;
+	margin-right: 0;
 }
