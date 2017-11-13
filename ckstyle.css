@@ -4,6 +4,8 @@
 
 header {
 	background-color: #820;
+	margin: 0;
+	padding: 16px;
 }
 
 header h1 {
@@ -13,6 +15,8 @@ header h1 {
 
 nav {
 	background-color: #610;
+	margin: 0;
+	padding: 8px;
 }
 
 nav ul {
@@ -22,6 +26,8 @@ nav ul {
 nav li {
 	text-decoration: none;
 	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 #wrapper {
@@ -34,4 +40,5 @@ main {
 
 footer {
 	background-color: #820;
+	margin: 0;
 }
