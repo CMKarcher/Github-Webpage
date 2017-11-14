@@ -34,6 +34,9 @@ nav ul {
 
 nav li {
 	text-decoration: none;
+	display: inline;
+	margin-top: 0px;
+	margin-bottom: 0px;
 	margin-left: auto;
 	margin-right: auto;
 }
