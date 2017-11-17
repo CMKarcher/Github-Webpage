@@ -58,3 +58,15 @@ main {
 footer {
 	background-color: #820;
 }
+
+body{
+ background-color:#d2d2d2;
+}
+#canvas{
+ background-color:#000;
+ display:block;
+ margin:auto;
+}
+#logo{
+ display:none;
+}
