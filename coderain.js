@@ -15,7 +15,7 @@ function draw() {
 }
 function textLine() {
     this.text = t;
-    this.posX = Math.floor(Math.random() * canvas.width);
+    this.posX = Math.floor(Math.random() * canvas.width) * 12;
     this.offsetY = -1000;
     this.animate = function () {
         if (this.offsetY >= 0) {
