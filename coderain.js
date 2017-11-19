@@ -5,6 +5,7 @@ var t = text();
 var lines = [];
 window.setInterval(draw, 100);
 function draw() {
+    alert("in draw");
     if (Math.floor(Math.random() * 2) === 0 && lines.length < 100) {
         lines.push(new textLine());
     }
@@ -14,6 +15,7 @@ function draw() {
     });
 }
 function textLine() {
+    alert("in textLine");
     this.text = t;
     this.posX = Math.floor(Math.random() * canvas.width);
     this.offsetY = -1000;
@@ -26,6 +28,7 @@ function textLine() {
     };
 }
 function text() {
+    alert("in text");
     var offscreenCanvas = document.createElement("canvas");
     offscreenCanvas.width = "30";
     offscreenCanvas.height = "1000";
