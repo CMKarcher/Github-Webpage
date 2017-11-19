@@ -2,7 +2,6 @@
 var canvas = document.getElementById("canvas");
 var ctx = canvas.getContext("2d");
 var t = text();
-var logo = document.getElementById("logo");
 var lines = [];
 window.setInterval(draw, 100);
 function draw() {
