@@ -12,7 +12,6 @@ function draw() {
     lines.forEach(function(tl) {
         ctx.drawImage(tl.text, tl.posX, tl.animate(), 20, 1000);
     });
-    ctx.drawImage(logo, 100, 155, 400, 70);
 }
 function textLine() {
     this.text = t;
