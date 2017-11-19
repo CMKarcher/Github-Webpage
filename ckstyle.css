@@ -68,10 +68,10 @@ body{
 	 display:block;
 	 margin:auto;
 }
-#logo{
+/*#logo{
 	display:none;
 }
-/*canvas {
+canvas {
 	position:absolute;
 	top:0;
 	left:0;
