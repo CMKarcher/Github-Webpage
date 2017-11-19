@@ -15,7 +15,7 @@ function draw() {
 }
 function textLine() {
     this.text = t;
-    this.posX = Math.floor(Math.random() * 24 * canvas.width) / 24;
+    this.posX = Math.floor(Math.random() * canvas.width);
     this.offsetY = -1000;
     this.animate = function () {
         if (this.offsetY >= 0) {
@@ -36,7 +36,7 @@ function text() {
     octx.shadowColor = "lightgreen";
     octx.shadowOffsetX = 2;
     octx.shadowOffsetY = -5;
-    octx.shadowBlur = 1;
+    octx.shadowBlur = 0;
     octx.fillStyle = "darkgreen";
     octx.textAlign = "left";
     var step = 10;
