@@ -36,7 +36,7 @@ function text() {
     octx.shadowColor = "lightgreen";
     octx.shadowOffsetX = 2;
     octx.shadowOffsetY = -5;
-    octx.shadowBlur = 0;
+    octx.shadowBlur = 1;
     octx.fillStyle = "darkgreen";
     octx.textAlign = "left";
     var step = 10;
