@@ -9,17 +9,17 @@ function draw() {
         lines.push(new textLine());
     }
     ctx.clearRect(0, 0, canvas.width, canvas.height);
-    lines.forEach(function(tl) {
+    lines.forEach(function (tl) {
         ctx.drawImage(tl.text, tl.posX, tl.animate(), 20, 1000);
     });
 }
 function textLine() {
     this.text = t;
-    this.posX = (function() {
+    this.posX = (function () {
         return Math.floor(Math.random() * canvas.width);
     })();
     this.offsetY = -1000;
-    this.animate = function() {
+    this.animate = function () {
         if (this.offsetY >= 0) {
             this.offsetY = -1000;
         }
