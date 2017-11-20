@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="utf-8" />
+    <title>Chris Karcher's Webpage</title>
+    <link rel = "stylesheet" type = "text/css" href = "ckstyle.css" />
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
+</head>
+
+<body>
+    <div id="wrapper">
+        <div w3-include-html="header.html">
+            <script>
+                w3.includeHTML();
+            </script>
+        </div>
+        +
+        <main>
+                <h2>Projects</h2><br />
+            <h3>Websites</h3>
+            <ul>
+                <li><a href="www.hibrandinginc.com">HI Branding Inc.</a><br />
+                    This is a website I built using Wordpress to take customer orders for branded clothing.
+                </li>
+            </ul>
+        </main>
+        <div>
+            <canvas id="canvas" width="600px" height="400px"></canvas>
+            <script type="text/javascript" src="coderain.js"></script>
+        </div>
+        <div w3-include-html="footer.html">
+            <script>
+                w3.includeHTML();
+            </script>
+        </div>
+    </div>
+</body>
+
+</html>
